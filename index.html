@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio personal de Manuel Fernández, estudiante de Desarrollo de Aplicaciones Web con interés en redes, sistemas y ciberseguridad."
+    />
+    <meta name="author" content="Manuel Fernández" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, portfolio, desarrollo web, Java, bases de datos, redes, ciberseguridad"
+    />
+    <title>Manuel Fernández | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="cabecera">
+      <div class="logo">
+        <img src="img/logo_manu.png" alt="Logo Manu_Dev" />
+      </div>
+
+      <nav class="navegacion">
+        <ul>
+          <li><a href="#hero">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#portfolio">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="seccion-hero">
+        <div class="hero-contenido">
+          <img src="img/logo_manu_2.png" alt="Logo MF_Dev" class="logo-hero">
+          <h1>Manuel Fernández</h1>
+          <p>
+            Estudiante de Desarrollo de Aplicaciones Web interesado en
+            programación, redes y ciberseguridad.
+          </p>
+          <a href="#portfolio" class="boton-hero">Ver proyectos</a>
+        </div>
+      </section>
+
+      <section id="sobre-mi" class="seccion-sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>
+          Soy estudiante de Desarrollo de Aplicaciones Web y me interesa
+          especialmente la programación, las bases de datos, los sistemas, las
+          redes y la ciberseguridad.
+        </p>
+        <p>
+          Me gusta aprender mediante proyectos prácticos y buscar formas de
+          organizar, automatizar y optimizar procesos mediante la tecnología.
+        </p>
+      </section>
+
+      <section id="portfolio" class="seccion-portfolio">
+        <h2>Mis proyectos</h2>
+
+        <div class="galeria-grid">
+          <article class="tarjeta-proyecto">
+            <img
+              src="img/clinica.png"
+              alt="Proyecto de gestión de una clínica podológica"
+            />
+            <h3>Clínica Podológica Victoria Montes</h3>
+            <p>
+              Proyecto académico orientado a la gestión de una clínica
+              podológica. Incluye información sobre pacientes, citas, servicios
+              y facturación, combinando una parte web con una aplicación de
+              gestión.
+            </p>
+          </article>
+
+          <article class="tarjeta-proyecto">
+            <img
+              src="img/rockfest.jpg"
+              alt="Proyecto de base de datos para un festival de música"
+            />
+            <h3>RockFest</h3>
+            <p>
+              Proyecto de base de datos para la organización de un festival de
+              música. Permite representar información sobre grupos, conciertos,
+              entradas, escenarios y asistentes.
+            </p>
+          </article>
+
+          <article class="tarjeta-proyecto">
+            <img
+              src="img/fitzone.jpg"
+              alt="Diseño web para un gimnasio ficticio"
+            />
+            <h3>FitZone</h3>
+            <p>
+              Diseño web para un gimnasio ficticio. La página muestra clases,
+              horarios, entrenadores y planes de entrenamiento mediante una
+              estructura visual sencilla y responsive.
+            </p>
+          </article>
+
+          <article class="tarjeta-proyecto">
+            <img
+              src="img/portfolio.jpg"
+              alt="Página web de portfolio personal"
+            />
+            <h3>Portfolio Personal</h3>
+            <p>
+              Página web personal creada con HTML y CSS para presentar
+              información profesional, habilidades, formación y proyectos de
+              desarrollo web.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contacto" class="seccion-contacto">
+        <h2>Contacto</h2>
+
+        <form class="formulario" action="#" method="post">
+          <label for="nombre">Nombre</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Escribe tu nombre"
+            required
+          />
+
+          <label for="email">Correo electrónico</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Escribe tu correo electrónico"
+            required
+          />
+
+          <label for="mensaje">Mensaje</label>
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            rows="5"
+            placeholder="Escribe tu mensaje"
+            required
+          ></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Manuel Fernández. Proyecto 1 - HTML + CSS.</p>
+
+      <div class="redes-sociales">
+        <a href="https://www.linkedin.com/in/manuel-fernandez-dev">LinkedIn</a>
+        <a href="https://github.com/ManuFdz89">GitHub</a>
+      </div>
+    </footer>
+  </body>
+</html>
